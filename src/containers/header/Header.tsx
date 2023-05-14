@@ -16,7 +16,7 @@ const Header = () => {
           showStatus={false}
           dynamicHeight
           autoPlay
-          interval={8000}
+          interval={4000}
           infiniteLoop
         >
           <img src={banner1} alt="banner one" />

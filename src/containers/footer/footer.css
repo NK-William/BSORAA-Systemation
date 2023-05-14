@@ -30,6 +30,7 @@
 .footer__quicklinks ul {
   color: white;
   margin-top: 1rem;
+  line-height: 1.5;
 }
 
 .footer__quicklinks ul {
@@ -63,11 +64,6 @@
   cursor: pointer;
 }
 
-.footer__second-section {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .footer__contacts-info {
   display: flex;
   flex-direction: column;
@@ -93,5 +89,29 @@
 }
 
 .footer__contacts-info div p {
+  color: white;
+  font-size: 14px;
+}
+
+.footer__second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.footer__second-section p {
+  color: white;
+}
+
+.footer__second-section div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__second-section div p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3rem;
   color: white;
 }
