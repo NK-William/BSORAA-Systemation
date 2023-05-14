@@ -1,0 +1,30 @@
+.serviceCard__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  height: 130px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 24px #303030;
+}
+
+.serviceCard__container p {
+  font-weight: 500;
+}
+
+.serviceCard__title {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.serviceCard__title img {
+  height: 25px;
+  width: 25px;
+  margin-right: 1rem;
+}

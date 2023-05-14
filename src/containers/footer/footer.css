@@ -1,0 +1,97 @@
+.footer__container {
+  background-color: var(--color-primary);
+  padding: 1rem var(--section-horizontal-padding);
+}
+
+.footer__first-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__about-company {
+  flex: 1;
+}
+
+.footer__about-company h3,
+.footer__quicklinks h3 {
+  color: white;
+}
+
+.footer__about-company div,
+.footer__quicklinks div {
+  height: 1px;
+  width: 100%;
+  background-color: wheat;
+  margin-top: 0.3rem;
+}
+
+.footer__about-company p,
+.footer__quicklinks ul {
+  color: white;
+  margin-top: 1rem;
+}
+
+.footer__quicklinks ul {
+  margin-left: 2rem;
+}
+
+.footer__quicklinks {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.footer__quicklinks ul li {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.footer__contacts {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.footer__social-media {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer__social-media img {
+  height: 25px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.footer__second-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__contacts-info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  margin-top: 0.3rem;
+  background-color: #08434c;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 2px 2.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer__contacts-info div {
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.footer__contacts-info div img {
+  height: 16px;
+  margin-right: 1rem;
+}
+
+.footer__contacts-info div p {
+  color: white;
+}

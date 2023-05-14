@@ -1,3 +1,7 @@
 .servicesSection__container {
-  background-color: blue;
+  padding: 2rem var(--section-horizontal-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
