@@ -1,6 +1,6 @@
 .footer__container {
   background-color: var(--color-primary);
-  padding: 1rem var(--section-horizontal-padding);
+  padding: 1rem 10rem;
 }
 
 .footer__first-section {
@@ -10,7 +10,7 @@
 }
 
 .footer__about-company {
-  flex: 1;
+  width: 300px;
 }
 
 .footer__about-company h3,
@@ -38,7 +38,7 @@
 }
 
 .footer__quicklinks {
-  flex: 1;
+  width: 300px;
   margin-left: 2rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .footer__contacts {
-  flex: 1;
+  width: 300px;
   margin-left: 2rem;
 }
 
