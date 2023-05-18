@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, PageTitle } from "../components";
-import { WhatWeDo, Leaders } from "../containers";
+import { WhatWeDo, Leaders, Footer } from "../containers";
 
 const AboutUs = () => {
   return (
@@ -9,6 +9,7 @@ const AboutUs = () => {
       <PageTitle />
       <WhatWeDo />
       <Leaders />
+      <Footer />
     </div>
   );
 };
