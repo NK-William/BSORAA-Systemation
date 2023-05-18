@@ -3,15 +3,19 @@
   flex-wrap: wrap;
 }
 
-.whatWeDo__content {
+.whatWeDo__left-container {
   padding: 18px var(--section-horizontal-padding);
   flex: 1;
-  background-color: lightblue;
+  background-color: white;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px #303030;
 }
 
 .whatWeDo__side-image {
   flex: 1;
-  background-color: aquamarine;
+  height: 530px;
+  overflow: hidden;
 }
 
 .whatWeDo__content h3 {
@@ -23,7 +27,13 @@
   line-height: 1.5;
 }
 
-.whatWeDo__values-text {
+.whatWeDo__values h3 {
   margin-top: 3rem;
   margin-bottom: 2rem;
+}
+
+.whatWeDo__side-image img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
 }

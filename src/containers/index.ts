@@ -4,3 +4,4 @@ export { default as Projects } from "./projects/Projects";
 export { default as WorkingWithUs } from "./workingWithUs/WorkingWithUs";
 export { default as Footer } from "./footer/Footer";
 export { default as WhatWeDo } from "./whatWeDo/WhatWeDo";
+export { default as Leaders } from "./leaders/Leaders";

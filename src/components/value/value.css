@@ -1,20 +1,29 @@
-.value__container {
+.value__container-title {
   margin-top: 0.5rem;
   display: flex;
   background-color: var(--color-primary);
   border-radius: 5px;
   align-items: center;
   justify-content: space-between;
-  height: 35px;
-  padding: 0 0.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .value__left-content {
   display: flex;
+  align-items: center;
 }
 
-.value__container p {
+.value__container-title p {
   color: white;
   margin: 0rem;
   margin-left: 0.5rem;
+}
+
+.value__container-content {
+  display: none;
+}
+
+.value__container-title img {
+  height: 18px;
+  cursor: pointer;
 }
