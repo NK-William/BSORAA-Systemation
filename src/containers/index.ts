@@ -5,3 +5,4 @@ export { default as WorkingWithUs } from "./workingWithUs/WorkingWithUs";
 export { default as Footer } from "./footer/Footer";
 export { default as WhatWeDo } from "./whatWeDo/WhatWeDo";
 export { default as Leaders } from "./leaders/Leaders";
+export { default as PrivacyPolicyContent } from "./privacyPolicyContent/PrivacyPolicyContent";

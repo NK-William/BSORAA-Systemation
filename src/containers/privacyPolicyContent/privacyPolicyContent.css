@@ -1,0 +1,31 @@
+.privacyPolicyContent__container {
+  margin: 1rem 20rem;
+}
+
+.privacyPolicyContent__container h4 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.privacyPolicyContent__container p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.privacyPolicyContent__container h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacyPolicyContent__paragraph-divider {
+  height: 10px;
+}
+
+.privacyPolicyContent__container a {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.privacyPolicyContent__space-end {
+  height: 50px;
+}

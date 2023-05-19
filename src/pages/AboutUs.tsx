@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div>
       <Navbar />
-      <PageTitle />
+      <PageTitle title="ABOUT BSORAA SYSTEMATION" />
       <WhatWeDo />
       <Leaders />
       <Footer />
