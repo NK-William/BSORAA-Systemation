@@ -1,5 +1,5 @@
 .privacyPolicyContent__container {
-  margin: 1rem 20rem;
+  margin: 1rem var(--section-horizontal-padding);
 }
 
 .privacyPolicyContent__container h4 {

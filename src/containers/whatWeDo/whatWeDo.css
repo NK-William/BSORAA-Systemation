@@ -1,10 +1,11 @@
 .whatWeDo__container {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 var(--section-horizontal-padding);
 }
 
 .whatWeDo__left-container {
-  padding: 18px var(--section-horizontal-padding);
+  padding: 18px 2rem;
   flex: 1;
   background-color: white;
   margin: 1rem 1rem 0 1rem;

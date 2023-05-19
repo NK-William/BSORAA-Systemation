@@ -22,7 +22,7 @@
   align-items: self-end;
   position: absolute;
   bottom: 0;
-  right: 5rem;
+  right: var(--section-horizontal-padding);
   height: 250px;
   text-align: center;
 }

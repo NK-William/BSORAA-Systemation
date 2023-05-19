@@ -1,6 +1,6 @@
 .footer__container {
   background-color: var(--color-primary);
-  padding: 1rem 10rem;
+  padding: 1rem var(--section-horizontal-padding);
 }
 
 .footer__first-section {
@@ -70,7 +70,7 @@
   height: 200px;
   width: 100%;
   margin-top: 0.3rem;
-  background-color: #08434c;
+  background-color: var(--color-primary-dark);
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
   padding: 2px 2.5rem;

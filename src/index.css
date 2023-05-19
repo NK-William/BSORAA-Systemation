@@ -16,5 +16,6 @@ code {
   --color-light-text: white;
   --color-dark-text: black;
   --color-primary: #2d9cad;
-  --section-horizontal-padding: 5rem;
+  --color-primary-dark: #08434c;
+  --section-horizontal-padding: 20rem;
 }
