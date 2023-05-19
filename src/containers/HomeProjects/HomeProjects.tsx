@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./homeProjects.css";
 import {
   project1,
   project2,
@@ -9,7 +9,7 @@ import {
   project6,
 } from "./imports";
 
-const Projects = () => {
+const HomeProjects = () => {
   return (
     <div className="projects__container">
       <div className="projects__header">
@@ -40,4 +40,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default HomeProjects;

@@ -3,7 +3,7 @@ import { Navbar } from "../components";
 import {
   Header,
   ServicesSection,
-  Projects,
+  HomeProjects,
   WorkingWithUs,
   Footer,
 } from "../containers";
@@ -14,7 +14,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <ServicesSection />
-      <Projects />
+      <HomeProjects />
       <WorkingWithUs />
       <Footer />
     </div>
