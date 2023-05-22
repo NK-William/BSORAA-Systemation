@@ -6,3 +6,5 @@ export { default as Footer } from "./footer/Footer";
 export { default as WhatWeDo } from "./whatWeDo/WhatWeDo";
 export { default as Leaders } from "./leaders/Leaders";
 export { default as PrivacyPolicyContent } from "./privacyPolicyContent/PrivacyPolicyContent";
+export { default as ProjectsSection } from "./projectsSection/ProjectsSection";
+export { default as QuoteButtonTextContainer } from "./quoteButtonTextContainer/QuoteButtonTextContainer";

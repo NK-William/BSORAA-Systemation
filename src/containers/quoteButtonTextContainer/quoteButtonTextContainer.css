@@ -1,0 +1,5 @@
+.QuoteButtonTextContainer__container {
+  display: flex;
+  background-color: white;
+  padding: 2rem var(--section-horizontal-padding);
+}

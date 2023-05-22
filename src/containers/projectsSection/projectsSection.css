@@ -1,0 +1,9 @@
+.projectsSection__container {
+  margin: 2rem var(--section-horizontal-padding);
+}
+
+.projectsSection__images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
