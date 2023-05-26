@@ -8,3 +8,6 @@ export { default as Leaders } from "./leaders/Leaders";
 export { default as PrivacyPolicyContent } from "./privacyPolicyContent/PrivacyPolicyContent";
 export { default as ProjectsSection } from "./projectsSection/ProjectsSection";
 export { default as QuoteButtonTextContainer } from "./quoteButtonTextContainer/QuoteButtonTextContainer";
+export { default as QuoteContainer } from "./quoteContainer/QuoteContainer";
+export { default as Contacts } from "./contacts/Contacts";
+export { default as QuoteForm } from "./quoteForm/QuoteForm";

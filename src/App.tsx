@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Projects from "./pages/Projects";
+import Quote from "./pages/Quote";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Home /> */}
       {/* <AboutUs /> */}
       {/* <PrivacyPolicy /> */}
-      <Projects />
+      {/* <Projects /> */}
+      <Quote />
     </div>
   );
 }

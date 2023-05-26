@@ -6,3 +6,4 @@ export { default as Value } from "./value/Value";
 export { default as Person } from "./person/Person";
 export { default as ProjectImage } from "./projectImage/ProjectImage";
 export { default as QuoteButtonText } from "./quoteButtonText/QuoteButtonText";
+export { default as Map } from "./map/Map";

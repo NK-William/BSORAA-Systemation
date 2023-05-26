@@ -1,0 +1,8 @@
+.quoteContainer__content {
+  margin: 2rem var(--section-horizontal-padding);
+  display: flex;
+  justify-content: center;
+}
+
+.quoteContainer__mapContacts-container {
+}
