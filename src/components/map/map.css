@@ -1,5 +1,12 @@
 .map__container {
   height: 500px;
   width: 500px;
-  background-color: green;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.map__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

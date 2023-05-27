@@ -1,3 +1,20 @@
 .contacts__container {
-  background-color: blue;
+  background-color: var(--color-primary);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
+
+.contacts__container div {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.contacts__container p {
+  color: white;
+}
+
+.contacts__container div img {
+  height: 16px;
+  margin-right: 1rem;
 }

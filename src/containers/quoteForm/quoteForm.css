@@ -1,4 +1,51 @@
 .quoteForm__container {
-  background-color: orange;
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quoteForm__message-title {
+  font-size: 16px;
+  color: #595959;
+}
+
+.quoteForm__text-area textarea {
+  padding: 0.8rem;
+  font-size: 14px;
+  width: 300px;
+  max-width: 300px;
+  min-height: 120px;
+  border-radius: 10px;
+  border: 1px var(--color-primary) solid;
+  background-color: #dcfaff;
+}
+
+.quoteForm__text-area textarea:focus {
+  outline: none;
+  border: 2px var(--color-primary) solid;
+  box-shadow: 0 4px 12px var(--color-primary);
+}
+
+.quoteForm__error-text__area {
+  color: var(--color-error);
+  font-size: 13px;
+  margin-top: 1px;
+}
+
+.quoteForm__container button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: var(--color-primary);
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.quoteForm__container button:hover {
+  background: var(--color-primary-dark);
 }

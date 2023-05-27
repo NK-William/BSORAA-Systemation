@@ -11,7 +11,9 @@ const QuoteContainer = () => {
           <Map />
           <Contacts />
         </div>
-        <QuoteForm />
+        <div className="quoteContainer__form-container">
+          <QuoteForm />
+        </div>
       </div>
       <Footer />
     </div>
