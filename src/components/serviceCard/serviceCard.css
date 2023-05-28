@@ -21,6 +21,8 @@
 .serviceCard__title {
   display: flex;
   margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .serviceCard__title img {
@@ -43,7 +45,7 @@
 @media (max-width: 410px) {
   .serviceCard__container {
     margin-right: 1rem;
-    width: 160px;
+    width: 200px;
     padding: 0.5rem;
   }
 
@@ -53,10 +55,11 @@
 
   .serviceCard__container p {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .serviceCard__title h3 {
-    font-size: 13px;
+    font-size: 15px;
+    max-width: 75px;
   }
 }
