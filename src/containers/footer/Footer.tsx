@@ -67,7 +67,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__second-section">
-        <p>Copyright 2021 Avanti Software. Inc. All rights reserved</p>
+        <p className="footer__copyright-text">
+          Copyright 2021 Avanti Software. Inc. All rights reserved
+        </p>
         <div>
           <p>Privacy Policy</p>
           <p>Terms of Use</p>

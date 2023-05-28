@@ -9,8 +9,8 @@ import Quote from "./pages/Quote";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <AboutUs />
+      <Home />
+      {/* <AboutUs /> */}
       {/* <PrivacyPolicy /> */}
       {/* <Projects /> */}
       {/* <Quote /> */}

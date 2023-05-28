@@ -39,5 +39,5 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 2px 4px var(--color-primary);
+  box-shadow: 0 2px 4px black;
 }

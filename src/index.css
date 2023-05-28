@@ -19,4 +19,6 @@ code {
   --color-primary-dark: #08434c;
   --color-error: #e40000;
   --section-horizontal-padding: 10rem;
+  --section-horizontal-medium-padding: 5rem;
+  --section-horizontal-small-padding: 1rem;
 }

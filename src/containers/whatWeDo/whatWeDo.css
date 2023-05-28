@@ -5,7 +5,7 @@
 }
 
 .whatWeDo__left-container {
-  padding: 18px 2rem;
+  padding: 1rem 2rem;
   flex: 1;
   background-color: white;
   margin: 1rem 1rem 0 1rem;
@@ -14,9 +14,11 @@
 }
 
 .whatWeDo__side-image {
+  margin: 1rem 2rem;
   flex: 1;
   height: 530px;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .whatWeDo__content h3 {
@@ -37,4 +39,5 @@
   display: block;
   height: 100%;
   object-fit: cover;
+  border-radius: 12px;
 }

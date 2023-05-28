@@ -28,3 +28,35 @@
   width: 25px;
   margin-right: 1rem;
 }
+
+@media (max-width: 1414px) {
+  .serviceCard__container {
+    margin-right: 1rem;
+    width: 260px;
+  }
+
+  .serviceCard__title img {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .serviceCard__container {
+    margin-right: 1rem;
+    width: 160px;
+    padding: 0.5rem;
+  }
+
+  .serviceCard__title img {
+    margin-right: 0.4rem;
+  }
+
+  .serviceCard__container p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .serviceCard__title h3 {
+    font-size: 13px;
+  }
+}
