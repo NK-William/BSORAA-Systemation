@@ -5,7 +5,7 @@
   width: 500px;
   overflow: hidden;
   margin: 0.5rem;
-  box-shadow: 0 2px 4px var(--color-primary);
+  box-shadow: 0 2px 4px black;
 }
 
 .projectImage__image-container img {
@@ -17,7 +17,7 @@
 }
 
 .projectImage__image-container:hover {
-  box-shadow: 0 4px 20px var(--color-primary);
+  box-shadow: 0 4px 20px black;
 }
 
 .projectImage__image-container:hover img {

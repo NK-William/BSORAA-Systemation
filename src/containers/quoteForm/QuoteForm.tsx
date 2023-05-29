@@ -1,6 +1,6 @@
 import React, { FormEvent } from "react";
 import "./quoteForm.css";
-import { Entry } from "../../components";
+import { Entry, Button } from "../../components";
 
 const QuoteForm = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -20,7 +20,7 @@ const QuoteForm = () => {
         <textarea value="" onChange={() => {}} />
         {/* <p className="entry__error-text">Message is required</p> */}
       </div>
-      <button type="submit">Submit</button>
+      <Button text="SUBMIT" />
     </form>
   );
 };

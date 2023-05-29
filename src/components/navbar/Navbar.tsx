@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar__container">
-      <img src={icon} alt="icon" height={45} />
+      <Link to="/">
+        <img src={icon} alt="icon" height={45} />
+      </Link>
       <nav className="navbar__link-container">
         <p>
           <Link to="/">Home</Link>
