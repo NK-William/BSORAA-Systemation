@@ -1,0 +1,16 @@
+.chatbot__container {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.chatbot__container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

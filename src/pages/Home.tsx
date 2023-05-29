@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Navbar, Chatbot } from "../components";
 import {
   Header,
   ServicesSection,
@@ -17,6 +17,7 @@ const Home = () => {
       <HomeProjects />
       <WorkingWithUs />
       <Footer />
+      <Chatbot />
     </div>
   );
 };
