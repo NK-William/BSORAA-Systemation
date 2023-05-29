@@ -5,15 +5,20 @@ import AboutUs from "./pages/AboutUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Projects from "./pages/Projects";
 import Quote from "./pages/Quote";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <AboutUs /> */}
-      {/* <PrivacyPolicy /> */}
-      {/* <Projects /> */}
-      {/* <Quote /> */}
+      <Router>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="about-us" element={<AboutUs />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="quote" element={<Quote />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

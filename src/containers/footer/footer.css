@@ -1,6 +1,6 @@
 .footer__container {
   background-color: var(--color-primary);
-  padding: 1rem var(--section-horizontal-padding);
+  padding: 0 var(--section-horizontal-padding);
 }
 
 .footer__first-section {
@@ -11,6 +11,8 @@
 
 .footer__about-company {
   width: 300px;
+  padding: 1rem 0;
+  margin-right: 2rem;
 }
 
 .footer__about-company h3,
@@ -34,12 +36,13 @@
 }
 
 .footer__quicklinks ul {
-  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .footer__quicklinks {
   width: 300px;
   margin-left: 2rem;
+  padding: 1rem 0;
 }
 
 .footer__quicklinks ul li {
@@ -49,7 +52,7 @@
 
 .footer__contacts {
   width: 300px;
-  margin-left: 2rem;
+  padding: 1rem 0;
 }
 
 .footer__social-media {
@@ -117,6 +120,7 @@
   flex-wrap: wrap;
   margin-left: 3rem;
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 1300px) {

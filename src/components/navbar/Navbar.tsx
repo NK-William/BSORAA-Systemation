@@ -1,28 +1,29 @@
 import React from "react";
 import "./navbar.css";
 import icon from "../../assets/icon.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="navbar__container">
       <img src={icon} alt="icon" height={45} />
-      <div className="navbar__link-container">
+      <nav className="navbar__link-container">
         <p>
-          <a href="#home">Home</a>
+          <Link to="/">Home</Link>
         </p>
         <p>
-          <a href="#about us">About Us</a>
+          <Link to="/about-us">About Us</Link>
         </p>
         <p>
-          <a href="#policies">Policies</a>
+          <Link to="/privacy-policy">Policies</Link>
         </p>
         <p>
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </p>
         <p>
-          <a href="#quote">Quote</a>
+          <Link to="/quote">Quote</Link>
         </p>
-      </div>
+      </nav>
     </div>
   );
 };
