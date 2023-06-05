@@ -1,6 +1,5 @@
 import React from "react";
 import "./entry.css";
-import { required } from "react-admin";
 
 interface IEntry {
   title: string;

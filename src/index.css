@@ -19,6 +19,16 @@ code {
   --color-primary-dark: #08434c;
   --color-error: #e40000;
   --section-horizontal-padding: 10rem;
-  --section-horizontal-medium-padding: 5rem;
-  --section-horizontal-small-padding: 1rem;
+}
+
+@media (max-width: 1160px) {
+  :root {
+    --section-horizontal-padding: 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    --section-horizontal-padding: 1rem;
+  }
 }

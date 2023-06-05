@@ -5,15 +5,3 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
-@media (max-width: 1160px) {
-  .servicesSection__container {
-    padding: 2rem var(--section-horizontal-medium-padding);
-  }
-}
-
-@media (max-width: 1160px) {
-  .servicesSection__container {
-    padding: 2rem var(--section-horizontal-small-padding);
-  }
-}
