@@ -38,3 +38,27 @@
 .workingWithUs__content Button {
   margin-top: 2rem;
 }
+
+@media (max-width: 800px) {
+  .workingWithUs__container {
+    height: 350px;
+  }
+
+  .workingWithUs__content h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .workingWithUs__container {
+    height: 300px;
+  }
+
+  .workingWithUs__content p{
+    font-size: 16px;
+  }
+  
+  .workingWithUs__content h1 {
+    font-size: 22px;
+  }
+}

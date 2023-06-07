@@ -41,3 +41,25 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px black;
 }
+
+@media (max-width: 1080px) {
+  .projects__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 740px) {
+  .projects__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects__content div {
+    height: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
