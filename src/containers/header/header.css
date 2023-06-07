@@ -33,3 +33,31 @@
     -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
   margin-bottom: 1rem;
 }
+
+@media (max-width: 800px) {
+  .banner__image-container img {
+  height: 350px;
+  }
+
+  .header__banner-text__container{
+    height: 180px;
+  }
+
+  .header__banner-text__container h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .banner__image-container img {
+  height: 300px;
+  }
+
+  .header__banner-text__container{
+    height: 160px;
+  }
+
+  .header__banner-text__container h1 {
+    font-size: 22px;
+  }
+}

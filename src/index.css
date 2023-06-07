@@ -21,7 +21,7 @@ code {
   --section-horizontal-padding: 10rem;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1250px) {
   :root {
     --section-horizontal-padding: 5rem;
   }
