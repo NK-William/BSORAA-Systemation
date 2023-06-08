@@ -32,3 +32,15 @@
   text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary),
     -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
 }
+
+@media (max-width: 1414px) {
+  .pageTitle__container {
+    height: 80px;
+  }
+}
+
+@media (max-width: 410px) {
+  .pageTitle__container h2 {
+    font-size: 18px;
+  }
+}

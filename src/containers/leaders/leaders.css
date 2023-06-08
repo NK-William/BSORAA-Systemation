@@ -16,3 +16,9 @@
 .leaders__divider {
   width: 100px;
 }
+
+@media (max-width: 410px) {
+  .leaders__title h2 {
+    font-size: 15px;
+  }
+}

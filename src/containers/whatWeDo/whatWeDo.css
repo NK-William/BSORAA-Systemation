@@ -38,6 +38,31 @@
 .whatWeDo__side-image img {
   display: block;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 12px;
+}
+
+@media (max-width: 1290px) {
+  .whatWeDo__container {
+    flex-direction: column;
+  }
+  .whatWeDo__side-image img{
+  width: 100%;
+  }
+}
+
+@media (max-width: 410px) {
+  .whatWeDo__left-container {
+    padding: 1rem 1rem;
+  }
+
+  .whatWeDo__content p{
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .whatWeDo__values h3
+  .whatWeDo__content h3  {
+    font-size: 15px;
+  }
 }

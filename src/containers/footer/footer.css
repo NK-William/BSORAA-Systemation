@@ -6,7 +6,6 @@
 .footer__first-section {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .footer__about-company {
@@ -75,7 +74,8 @@
   background-color: var(--color-primary-dark);
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  padding: 2px 2.5rem;
+  padding-left:  3rem;
+  padding-right:  1.5rem;
   align-items: flex-start;
   justify-content: center;
 }
@@ -123,5 +123,73 @@
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1414px) {
+  .serviceCard__container {
+    margin-right: 1rem;
+    width: 260px;
+  }
+
+  .serviceCard__title img {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 1050px){
+  .footer__first-section {
+  flex-direction: column;
+  }
+
+  .footer__about-company {
+    width: 100%;
+  }
+
+  .footer__quicklinks ul{
+    display: flex;
+  }
+
+  .footer__quicklinks ul li{
+    margin-left: 1.2rem;
+    padding-right: 3rem;
+  }
+
+  .footer__quicklinks {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 626px) {
+  .footer__second-section div p {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 560px){
+  .footer__quicklinks ul li{
+    padding-right: 1rem;
+  }
+}
+
+@media(max-width: 440px){
+  .footer__quicklinks ul{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 410px) {
+
+  .footer__second-section p
+  .footer__second-section div p  {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+.footer__about-company h3,
+.footer__quicklinks h3 {
+    font-size: 15px;
+    max-width: 75px;
+  }
 }

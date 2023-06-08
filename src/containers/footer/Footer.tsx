@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./footer.css";
 import {
   facebook,
@@ -10,8 +10,16 @@ import {
   clock,
   close,
 } from "./imports";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
+
+  // const pageLocation = useLocation();
+  // useEffect(() => { 
+  //   window.scrollTo(0, 0);
+  // }, 
+  // [pageLocation.pathname])
+
   return (
     <div className="footer__container">
       <div className="footer__first-section">
@@ -71,8 +79,8 @@ const Footer = () => {
           Copyright 2021 Avanti Software. Inc. All rights reserved
         </p>
         <div>
-          <p>Privacy Policy</p>
-          <p>Terms of Use</p>
+          <p><Link to="/privacy-policy">Privacy Policy</Link></p>
+          {/* <p>Terms of Use</p> */}
         </div>
       </div>
     </div>
