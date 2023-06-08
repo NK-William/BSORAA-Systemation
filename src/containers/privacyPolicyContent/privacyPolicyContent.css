@@ -29,3 +29,19 @@
 .privacyPolicyContent__space-end {
   height: 50px;
 }
+
+@media (max-width: 410px) {
+  .privacyPolicyContent__container p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .privacyPolicyContent__container h4 {
+    font-size: 15px;
+  }
+
+  .privacyPolicyContent__container h2{
+    font-size: 17px;
+  }
+}

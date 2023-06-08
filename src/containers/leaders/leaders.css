@@ -22,3 +22,22 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 1060px) {
+  .leaders__content {
+    margin: 2.5rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .leaders__content {
+    margin: 2rem 0rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .leaders__content {
+   flex-direction: column;
+   margin-top: 1rem;
+  }
+}

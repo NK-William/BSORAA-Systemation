@@ -60,6 +60,7 @@
 .navbar__menu-popup p {
   margin-left: 0;
   margin-top: 1rem;
+  font-weight: normal;
 }
 
 .navbar__menu-container,

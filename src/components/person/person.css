@@ -1,4 +1,6 @@
 .person__container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
@@ -16,6 +18,7 @@
   overflow: hidden;
   border-radius: 50px;
   margin-bottom: 1rem;
+  align-self: center;
 }
 
 .person__image img {
@@ -41,5 +44,18 @@
 @media (max-width: 410px) {
   .person__container p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .person__image {
+    height: 250px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 670px) {
+  .person__container{
+   margin-top: 1rem;
   }
 }

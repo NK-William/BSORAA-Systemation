@@ -59,10 +59,11 @@
   .whatWeDo__content p{
     font-weight: 400;
     font-size: 15px;
+    line-height: 1.4;
   }
 
-  .whatWeDo__values h3
+  .whatWeDo__values h3,
   .whatWeDo__content h3  {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
