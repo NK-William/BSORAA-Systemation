@@ -14,7 +14,7 @@ function Entry({ title, showRequired, value }: IEntry) {
         {title}
         <span>{showRequired && "(required)"}</span>
       </p>
-      <input type="text" value={value} onChange={() => {}} />
+      <input type="text" onChange={() => {}} />
       {/* <p className="entry__error-text">Name is required</p> */}
     </div>
   );

@@ -17,7 +17,7 @@ const QuoteForm = () => {
       <Entry title="Subject" value="" />
       <div className="quoteForm__text-area">
         <p className="quoteForm__message-title">Message</p>
-        <textarea value="" onChange={() => {}} />
+        <textarea onChange={() => {}} />
         {/* <p className="entry__error-text">Message is required</p> */}
       </div>
       <Button text="SUBMIT" />
