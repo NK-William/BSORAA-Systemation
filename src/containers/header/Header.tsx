@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { banner1, banner2, banner3, banner4 } from "./imports";
+import { banner1, banner2, banner3, banner4, banner5 } from "./imports";
 import { Button } from "../../components";
 
 const Header = () => {
@@ -23,6 +23,7 @@ const Header = () => {
           <img src={banner2} alt="banner two" />
           <img src={banner3} alt="banner three" />
           <img src={banner4} alt="banner four" />
+          <img src={banner5} alt="banner five" />
         </Carousel>
       </div>
       <div className="header__banner-text__container">
