@@ -30,7 +30,7 @@
 .footer__about-company p,
 .footer__quicklinks ul {
   color: white;
-  margin-top: 1rem;
+  margin-top: 0;
   line-height: 1.5;
 }
 

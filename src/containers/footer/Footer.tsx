@@ -10,7 +10,8 @@ import {
   clock,
   close,
 } from "./imports";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { scrollPageUp } from "../../utils/global";
 
 const Footer = () => {
 
@@ -38,10 +39,10 @@ const Footer = () => {
           <h3>QUICKLINKS</h3>
           <div />
           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Projects</li>
-            <li>Quote</li>
+            <li><Link to="/" onClick={scrollPageUp}>Home</Link></li>
+            <li><Link to="/about-us" onClick={scrollPageUp}>About Us</Link></li>
+            <li><Link to="/privacy-policy" onClick={scrollPageUp}>Projects</Link></li>
+            <li><Link to="/quote" onClick={scrollPageUp}>Quote</Link></li>
           </ul>
         </div>
         <div className="footer__contacts">
@@ -79,7 +80,7 @@ const Footer = () => {
           Copyright 2021 Avanti Software. Inc. All rights reserved
         </p>
         <div>
-          <p><Link to="/privacy-policy">Privacy Policy</Link></p>
+          <p><Link to="/privacy-policy" onClick={scrollPageUp}>Privacy Policy</Link></p>
           {/* <p>Terms of Use</p> */}
         </div>
       </div>

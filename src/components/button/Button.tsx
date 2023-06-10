@@ -1,6 +1,7 @@
 import React from "react";
 import "./button.css";
 import { useNavigate } from "react-router-dom";
+import { scrollPageUp } from "../../utils/global";
 
 interface propType {
   text: string;
@@ -9,7 +10,10 @@ interface propType {
 const Button = ({ text }: propType) => {
   const navigate = useNavigate();
 
-  const handleClick = () => navigate("/quote");
+  const handleClick = () => {
+    navigate("/quote");
+    scrollPageUp();
+  }
 
   return (
     <div className="button__container">
