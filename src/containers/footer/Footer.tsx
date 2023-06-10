@@ -41,7 +41,7 @@ const Footer = () => {
           <ul>
             <li><Link to="/" onClick={scrollPageUp}>Home</Link></li>
             <li><Link to="/about-us" onClick={scrollPageUp}>About Us</Link></li>
-            <li><Link to="/privacy-policy" onClick={scrollPageUp}>Projects</Link></li>
+            <li><Link to="/projects" onClick={scrollPageUp}>Projects</Link></li>
             <li><Link to="/quote" onClick={scrollPageUp}>Quote</Link></li>
           </ul>
         </div>

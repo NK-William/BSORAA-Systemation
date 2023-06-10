@@ -1,7 +1,7 @@
 .projectImage__image {
 }
 .projectImage__image-container {
-  height: 250px;
+  height: 280px;
   width: 500px;
   overflow: hidden;
   margin: 0.5rem;
@@ -27,4 +27,21 @@
 .projectImage__image h3 {
   margin-left: 0.5rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 570px) {
+  .projectImage__image-container {
+    width: 350px;
+  }
+}
+
+@media (max-width: 410px) {
+  .projectImage__image-container {
+    width: 280px;
+    height: 200px;
+  }
+
+  .projectImage__image h3 {
+    font-size: 15px;
+  }
 }
