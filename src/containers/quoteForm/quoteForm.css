@@ -9,6 +9,10 @@
   color: #595959;
 }
 
+.quoteForm__text-area{
+  margin-bottom: 2rem;
+}
+
 .quoteForm__text-area textarea {
   padding: 0.8rem;
   font-size: 14px;
@@ -18,7 +22,6 @@
   border-radius: 10px;
   border: 1px var(--color-primary) solid;
   background-color: #dcfaff;
-  margin-bottom: 2rem;
 }
 
 .quoteForm__text-area textarea:focus {
@@ -37,6 +40,9 @@
   .quoteForm__text-area textarea {
     width: 250px;
     min-height: 90px;
+  }
+
+  .quoteForm__text-area{
     margin-bottom: 1rem;
   }
 }
