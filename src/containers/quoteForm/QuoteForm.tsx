@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./quoteForm.css";
 import { Entry, Button } from "../../components";
+import emailjs from '@emailjs/browser';
 
 const QuoteForm = () => {
 
@@ -24,12 +25,14 @@ const QuoteForm = () => {
     e.preventDefault();
 
     if(isValid()){
-      // submit
-      console.log("name: ",name);
-      console.log("surname: ",surname);
-      console.log("email: ",email);
-      console.log("contactNumber: ",contactNumber);
-      console.log("message: ",message);
+      const target = e.target as HTMLFormElement;
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', target, 'YOUR_PUBLIC_KEY')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+
     }else{
       return;
     }
