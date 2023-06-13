@@ -26,7 +26,7 @@ const QuoteForm = () => {
 
     if(isValid()){
       const target = e.target as HTMLFormElement;
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', target, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', target, 'PUBLIC_KEY')
         .then((result) => {
           console.log(result.text);
         }, (error) => {

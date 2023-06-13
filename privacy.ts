@@ -1,1 +1,1 @@
-// Privacy here is a bit of a misnomer. This is where we store the keys
+// Privacy here is a bit of a misnomer.
