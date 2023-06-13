@@ -11,7 +11,7 @@ const Leaders = () => {
           BSORAA in accordance with legislation, is a registered electrical
           contractor.
         </h2>
-        <Button text="GET A QUOTE" />
+        <Button text="GET A QUOTE" scrollPageToTop/>
       </div>
       <div className="leaders__content">
         <Person

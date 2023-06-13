@@ -14,7 +14,7 @@ const WorkingWithUs = () => {
       <div className="workingWithUs__content">
         <h1>Working with us</h1>
         <p>We design, manufacture and install solars</p>
-        <Button text="GET A QUOTE" />
+        <Button text="GET A QUOTE" scrollPageToTop/>
       </div>
     </div>
   );

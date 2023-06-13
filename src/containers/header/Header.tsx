@@ -31,7 +31,7 @@ const Header = () => {
           CUSTOMER FOCUSED
           <br /> SOLAR SOLUTION
         </h1>
-        <Button text="GET A QUOTE" />
+        <Button text="GET A QUOTE" scrollPageToTop/>
       </div>
     </div>
   );

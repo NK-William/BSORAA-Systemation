@@ -23,7 +23,11 @@ function Entry({ title, showRequired, value, onTextChange, error }: IEntry) {
         <span>{showRequired && "(required)"}</span>
       </p>
       <input type="text" value={value} onChange={handleTextChange} />
-      {error &&<p className="entry__error-text">A valid {title.toLocaleLowerCase()} is required</p>}
+      {(error && showRequired) &&
+      <p className="entry__error-text">{(title === "Email" || title === "Contact number" )?
+       `A valid ${title.toLocaleLowerCase()} is required`
+      :
+      `${title} is required`}</p>}
     </div>
   );
 }

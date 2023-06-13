@@ -5,14 +5,15 @@ import { scrollPageUp } from "../../utils/global";
 
 interface propType {
   text: string;
+  scrollPageToTop?: boolean;
 }
 
-const Button = ({ text }: propType) => {
+const Button = ({ text, scrollPageToTop }: propType) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
     navigate("/quote");
-    scrollPageUp();
+    if(scrollPageToTop) scrollPageUp();
   }
 
   return (

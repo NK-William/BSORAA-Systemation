@@ -14,7 +14,6 @@ const QuoteForm = () => {
   const [surnameError, setSurnameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [contactNumberError, setContactNumberError] = useState(false);
-  const [messageError, setMessageError] = useState(false);
 
   const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     e.preventDefault();
@@ -53,25 +52,25 @@ const QuoteForm = () => {
       setSurnameError(false);
     }
 
-    if(email.trim() === ""){
+    const validEmail = String(email)
+    .toLowerCase()
+    .match(
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+
+    if(email.trim() === "" || !validEmail){
       setEmailError(true);
       valid = false;
     }else{
       setEmailError(false);
     }
 
-    if(contactNumber.trim() === ""){
+    const validContactNumber = String(contactNumber).match(/^0\d{9}$/);
+    if(contactNumber.trim() === "" || !validContactNumber){
       setContactNumberError(true);
       valid = false;
     }else{
       setContactNumberError(false);
-    }
-
-    if(message.trim() === ""){
-      setMessageError(true);
-      valid = false;
-    }else{
-      setMessageError(false);
     }
 
     return valid;
@@ -86,7 +85,6 @@ const QuoteForm = () => {
       <div className="quoteForm__text-area">
         <p className="quoteForm__message-title">Message</p>
         <textarea value={message} onChange={handleTextChange} />
-        {messageError && <p className="entry__error-text">Message is required</p>}
       </div>
       <Button text="SUBMIT" />
     </form>
