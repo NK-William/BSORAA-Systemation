@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./quoteForm.css";
 import { Entry, Button } from "../../components";
 import emailjs from '@emailjs/browser';
+import {SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY} from "../../privacy";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const QuoteForm = () => {
 
@@ -15,6 +18,11 @@ const QuoteForm = () => {
   const [surnameError, setSurnameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [contactNumberError, setContactNumberError] = useState(false);
+  
+  const [loading, setLoading] = useState(false);
+
+  const notifySuccess = () => toast("Successfully submitted!", {type: "success"});
+  const notifyError = () => toast("An error occurred!", {type: "error"});
 
   const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     e.preventDefault();
@@ -25,19 +33,37 @@ const QuoteForm = () => {
     e.preventDefault();
 
     if(isValid()){
-      const target = e.target as HTMLFormElement;
-      emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', target, 'PUBLIC_KEY')
+
+      if(loading) return;
+      setLoading(true);
+      const templatePrams = {
+        from_name: `${name} ${surname}`,
+        to_name: "BSORAA",
+        message: `Contact number: ${contactNumber}\nEmail: ${email}\n\n${message}`,
+        }
+
+      emailjs.send(SERVICE_ID, TEMPLATE_ID, templatePrams, PUBLIC_KEY)
         .then((result) => {
           console.log(result.text);
+          notifySuccess();
+          clearForm();
         }, (error) => {
           console.log(error.text);
+          notifyError();  
         });
-
+        setLoading(false);
     }else{
       return;
     }
-
   };
+
+  const clearForm = () => {
+    setName("");
+    setSurname("");
+    setEmail("");
+    setContactNumber("");
+    setMessage("");
+  }
 
   const isValid= () => {
     let valid = true;
@@ -81,6 +107,7 @@ const QuoteForm = () => {
 
   return (
     <form className="quoteForm__container" onSubmit={handleSubmit}>
+      <ToastContainer />
       <Entry title="Name" value={name} onTextChange={setName} showRequired error={nameError}/>
       <Entry title="Surname" value={surname} showRequired onTextChange={setSurname} error={surnameError}/>
       <Entry title="Email" value={email} showRequired onTextChange={setEmail} error={emailError}/>

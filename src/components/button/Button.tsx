@@ -8,7 +8,7 @@ interface propType {
   scrollPageToTop?: boolean;
 }
 
-const Button = ({ text, scrollPageToTop }: propType) => {
+const Button = ({ text, scrollPageToTop}: propType) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
