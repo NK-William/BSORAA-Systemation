@@ -32,10 +32,12 @@ const QuoteForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if(isValid()){
+    if(loading) {
+      return;
+    }
 
-      if(loading) return;
-      setLoading(true);
+    setLoading(true);
+    if(isValid()){
       const templatePrams = {
         from_name: `${name} ${surname}`,
         to_name: "BSORAA",
@@ -53,6 +55,7 @@ const QuoteForm = () => {
         });
         setLoading(false);
     }else{
+      setLoading(false);
       return;
     }
   };
