@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./footer.css";
 import {
   facebook,
@@ -14,11 +14,10 @@ import { Link } from "react-router-dom";
 import { scrollPageUp } from "../../utils/global";
 
 const Footer = () => {
-
   // const pageLocation = useLocation();
-  // useEffect(() => { 
+  // useEffect(() => {
   //   window.scrollTo(0, 0);
-  // }, 
+  // },
   // [pageLocation.pathname])
 
   return (
@@ -28,21 +27,37 @@ const Footer = () => {
           <h3>BSORAA SYSTEMATION</h3>
           <div />
           <p>
-            BSORAA systemation offers a complete roofing solution. This inclides
-            not only the designing, manufacturing and deliver of the timber roof
-            trusses but also the supplying and installation of various types of
-            roof coverings, such as concrete roofs tiles and metal roof
-            sheeting.
+            BSORAA systemation offers a complete energy solution for domestic,
+            commercial and industrial projects. We also offer solutions for
+            plant automation, instrumentation and control with a view of
+            simplifying the usage of electricity while maximising the benefits
+            and usage of green energy wherever possible.
           </p>
         </div>
         <div className="footer__quicklinks">
           <h3>QUICKLINKS</h3>
           <div />
           <ul>
-            <li><Link to="/" onClick={scrollPageUp}>Home</Link></li>
-            <li><Link to="/about-us" onClick={scrollPageUp}>About Us</Link></li>
-            <li><Link to="/projects" onClick={scrollPageUp}>Projects</Link></li>
-            <li><Link to="/quote" onClick={scrollPageUp}>Quote</Link></li>
+            <li>
+              <Link to="/" onClick={scrollPageUp}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about-us" onClick={scrollPageUp}>
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects" onClick={scrollPageUp}>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="/quote" onClick={scrollPageUp}>
+                Quote
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="footer__contacts">
@@ -54,19 +69,19 @@ const Footer = () => {
           <div className="footer__contacts-info">
             <div>
               <img src={phone} alt="Phone" />
-              <p>012 332 563</p>
+              <p>015 250 0100</p>
             </div>
             <div>
               <img src={email} alt="Email" />
-              <p>quote@broraa.co.za</p>
+              <p>info@bsoraasystemation.co.za</p>
             </div>
             <div>
               <img src={location} alt="Location" />
-              <p>Plot 302 Zwavelpoort, PTA East</p>
+              <p>112 river, Polokwane, 0700</p>
             </div>
             <div>
               <img src={clock} alt="Clock" />
-              <p>Mon-Fri 07:00 - 16:30</p>
+              <p>Mon-Fri 07:00 - 16:00</p>
             </div>
             <div>
               <img src={close} alt="Close" />
@@ -77,10 +92,15 @@ const Footer = () => {
       </div>
       <div className="footer__second-section">
         <p className="footer__copyright-text">
-          Copyright 2021 Avanti Software. Inc. All rights reserved
+          BSORAA Systemation: 13 Taurus Avenue - Sterpark - Polokwane - Limpopo
+          - South Africa
         </p>
         <div>
-          <p><Link to="/privacy-policy" onClick={scrollPageUp}>Privacy Policy</Link></p>
+          <p>
+            <Link to="/privacy-policy" onClick={scrollPageUp}>
+              Privacy Policy
+            </Link>
+          </p>
           {/* <p>Terms of Use</p> */}
         </div>
       </div>

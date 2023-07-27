@@ -96,7 +96,11 @@ const PrivacyPolicyContent = () => {
       <p>
         If you have any questions or concerns regarding this Privacy Policy or
         the practices of our Website, please contact us at{" "}
-        <a>help@broraa.co.za</a>.
+        <a href="mailto:info@bsoraasystemation.co.za ">
+          {" "}
+          info@bsoraasystemation.co.za
+        </a>
+        .
       </p>
       <div className="privacyPolicyContent__paragraph-divider" />
       <p>

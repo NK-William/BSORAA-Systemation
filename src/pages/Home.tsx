@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Navbar, Chatbot } from "../components";
 import {
   Header,
@@ -17,7 +17,7 @@ const Home = () => {
       <HomeProjects />
       <WorkingWithUs />
       <Footer />
-      <Chatbot />
+      {/* <Chatbot /> */}
     </div>
   );
 };
