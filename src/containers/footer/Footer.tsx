@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import "./footer.css";
 import {
-  facebook,
-  linkedin,
+  whatsApp,
   instagram,
   phone,
   email,
   location,
   clock,
   close,
+  QRCode,
 } from "./imports";
 import { Link } from "react-router-dom";
 import { scrollPageUp } from "../../utils/global";
@@ -62,9 +62,13 @@ const Footer = () => {
         </div>
         <div className="footer__contacts">
           <div className="footer__social-media">
-            <img src={facebook} alt="facebook" />
-            <img src={linkedin} alt="linkedin" />
-            <img src={instagram} alt="instagram" />
+            <img src={whatsApp} alt="WhatsApp" />
+            <a
+              href="https://instagram.com/systemationbsoraa?igshid=NGExMmI2YTkyZg=="
+              target="_blank"
+            >
+              <img src={instagram} alt="Instagram" />
+            </a>
           </div>
           <div className="footer__contacts-info">
             <div>
@@ -103,6 +107,9 @@ const Footer = () => {
           </p>
           {/* <p>Terms of Use</p> */}
         </div>
+      </div>
+      <div className="footer__QR-code__container">
+        <img src={QRCode} alt="WhatsApp QR code" />
       </div>
     </div>
   );

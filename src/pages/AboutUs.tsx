@@ -1,6 +1,6 @@
-import React, {useEffect} from "react";
-import { Navbar, PageTitle } from "../components";
-import { WhatWeDo, Leaders, Footer } from "../containers";
+import React, { useEffect } from "react";
+import { Navbar, PageTitle, QuoteButtonText } from "../components";
+import { WhatWeDo, QuoteButtonTextContainer, Footer } from "../containers";
 
 const AboutUs = () => {
   return (
@@ -8,7 +8,7 @@ const AboutUs = () => {
       <Navbar />
       <PageTitle title="ABOUT BSORAA SYSTEMATION" />
       <WhatWeDo />
-      <Leaders />
+      <QuoteButtonTextContainer />
       <Footer />
     </div>
   );
