@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./footer.css";
 import {
   whatsApp,
@@ -14,11 +14,14 @@ import { Link } from "react-router-dom";
 import { scrollPageUp } from "../../utils/global";
 
 const Footer = () => {
-  // const pageLocation = useLocation();
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // },
-  // [pageLocation.pathname])
+  const [isQRCodeVisible, setIsQRCodeVisible] = useState(false);
+
+  const handleQRCodeVisibility = () => {
+    setIsQRCodeVisible(true);
+    setTimeout(() => {
+      setIsQRCodeVisible(false);
+    }, 5000);
+  };
 
   return (
     <div className="footer__container">
@@ -62,7 +65,11 @@ const Footer = () => {
         </div>
         <div className="footer__contacts">
           <div className="footer__social-media">
-            <img src={whatsApp} alt="WhatsApp" />
+            <img
+              src={whatsApp}
+              alt="WhatsApp"
+              onClick={handleQRCodeVisibility}
+            />
             <a
               href="https://instagram.com/systemationbsoraa?igshid=NGExMmI2YTkyZg=="
               target="_blank"
@@ -108,9 +115,11 @@ const Footer = () => {
           {/* <p>Terms of Use</p> */}
         </div>
       </div>
-      <div className="footer__QR-code__container">
-        <img src={QRCode} alt="WhatsApp QR code" />
-      </div>
+      {isQRCodeVisible && (
+        <div className="footer__QR-code__container">
+          <img src={QRCode} alt="WhatsApp QR code" />
+        </div>
+      )}
     </div>
   );
 };

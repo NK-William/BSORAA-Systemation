@@ -1,4 +1,5 @@
 .footer__container {
+  position: relative;
   background-color: var(--color-primary);
   padding: 0 var(--section-horizontal-padding);
 }
@@ -125,13 +126,15 @@
 
 .footer__QR-code__container {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 318px;
+  right: 180px;
   z-index: 99;
+  height: 450px;
 }
 
 .footer__QR-code__container img {
-  height: 250px;
+  border-radius: 20px;
+  height: 100%;
 }
 
 @media (max-width: 1414px) {
@@ -145,7 +148,25 @@
   }
 }
 
+@media (max-width: 1250px) {
+  .footer__QR-code__container {
+    right: 110px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1059px) {
+  .footer__QR-code__container {
+    bottom: 348px;
+  }
+}
+
 @media (max-width: 1050px) {
+  .footer__QR-code__container {
+    bottom: 320px;
+    left: 130px;
+  }
+
   .footer__first-section {
     flex-direction: column;
   }
@@ -166,6 +187,28 @@
   .footer__quicklinks {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 995px) {
+  .footer__QR-code__container {
+    bottom: 380px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 650px) {
+  .footer__QR-code__container {
+    bottom: 380px;
+    left: 1;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer__QR-code__container {
+    bottom: 400px;
+    left: 1;
   }
 }
 
