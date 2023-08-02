@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Navbar, Chatbot } from "../components";
+import { Navbar } from "../components";
 import {
   Header,
   ServicesSection,
@@ -17,7 +17,6 @@ const Home = () => {
       <HomeProjects />
       <WorkingWithUs />
       <Footer />
-      {/* <Chatbot /> */}
     </div>
   );
 };
