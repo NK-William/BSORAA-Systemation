@@ -16,13 +16,25 @@
 }
 
 .footer__about-company h3,
-.footer__quicklinks h3 {
+.footer__quicklinks h3,
+.footer__affiliations h3 {
   color: white;
+}
+
+.footer__affiliations {
+  margin-left: 2rem;
+}
+
+.footer__affiliation-title__line {
+  height: 1px;
+  width: 100%;
+  background-color: wheat;
+  margin-top: 0.3rem;
 }
 
 .footer__about-company div,
 .footer__quicklinks div {
-  height: 1px;
+  height: 0.6px;
   width: 100%;
   background-color: wheat;
   margin-top: 0.3rem;
@@ -64,6 +76,14 @@
   height: 25px;
   margin-left: 1rem;
   cursor: pointer;
+}
+
+.footer__affiliations-img {
+  margin-top: 1rem;
+}
+
+.footer__affiliations-img img {
+  height: 50px;
 }
 
 .footer__contacts-info {
@@ -190,6 +210,12 @@
   }
 }
 
+@media (max-width: 1049.6px) {
+  .footer__affiliations {
+    margin-left: 0rem;
+  }
+}
+
 @media (max-width: 995px) {
   .footer__QR-code__container {
     bottom: 380px;
@@ -238,7 +264,7 @@
     font-weight: 400;
     font-size: 15px;
   }
-
+  .footer__affiliations h3,
   .footer__about-company h3,
   .footer__quicklinks h3 {
     font-size: 15px;

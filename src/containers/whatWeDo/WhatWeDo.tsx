@@ -10,20 +10,21 @@ const WhatWeDo = () => {
         <div className="whatWeDo__content">
           <h3>WHAT WE DO</h3>
           <ul className="whatWeDo__list">
+            <li className="whatWeDo__list-title">CONTAINERS CONVERSION</li>
             <li className="whatWeDo__list-title">PROCESS CONTROL SYSTEMS</li>
             <ul className="whatWeDo__inner-list">
-              <li>Siemens PLC programming</li>
+              <li>Siemens PLC programming.</li>
               <li>
                 SCADA & HMI Design and Installation (Siemens Simatic WinCC,
-                iFIX, Schneider Citect, Wonderware and Adroit Systems)
+                iFIX, Schneider Citect, Wonderware and Adroit Systems).
               </li>
               <li>
                 Process Control Networks Maintenance, Installation and Design
-                (ProfiNet, ProfiBus, Industrial Ethernet, etc)
+                (ProfiNet, ProfiBus, Industrial Ethernet, etc).
               </li>
               <li>
                 Integration of Multi-protocol Networks and Data acquisition
-                (OPC)
+                (OPC).
               </li>
             </ul>
             <li className="whatWeDo__list-title">PROCESS INSTRUMENTATION</li>
@@ -31,32 +32,34 @@ const WhatWeDo = () => {
               <li>
                 Supply, Installation, design and maintenance of all field
                 instruments (E+H, Krohne, Vega, Siemens, ABB, Emerson, CiDRA,
-                Process Automation, Thermofisher, etc)
+                Process Automation, Thermofisher, etc).
               </li>
               <li>
                 Providing reliable, maintenance friendly installation solutions
                 to existing plants to reduce maintenance costs.
               </li>
-              <li>Instrumentation Verification and Integrity checks</li>
-              <li>AS-i Network Instrumentation and Maintenance</li>
+              <li>Instrumentation Verification and Integrity checks.</li>
+              <li>AS-i Network Instrumentation and Maintenance.</li>
             </ul>
             <li className="whatWeDo__list-title">SMART BUILDING AUTOMATION</li>
             <ul className="whatWeDo__inner-list">
               <li>
                 Design, Installation, Maintenance of smart building projects and
-                recommendations of systems suitable for various install areas.
-                (Mainly on HDL® BusPro and KNX networks)
+                recommendations of systems suitable for various install areas
+                (Mainly on HDL® BusPro and KNX networks).
               </li>
               <li>
-                Integration of smart homes with security and monitoring systems
+                Integration of smart homes with security and monitoring systems.
               </li>
             </ul>
             <li className="whatWeDo__list-title"> GREEN ENERGY</li>
             <ul className="whatWeDo__inner-list">
-              <li>Energy Analysis and systems recommendations</li>
-              <li>Solar powered system design and Installation</li>
-              <li>Solar power system maintenance, cleaning and upgrades</li>
-              <li>Energy Saving Solutions with Heat Pumps and Solar Geysers</li>
+              <li>Energy Analysis and systems recommendations.</li>
+              <li>Solar powered system design and Installation.</li>
+              <li>Solar power system maintenance, cleaning and upgrades.</li>
+              <li>
+                Energy Saving Solutions with Heat Pumps and Solar Geysers.
+              </li>
             </ul>
           </ul>
         </div>

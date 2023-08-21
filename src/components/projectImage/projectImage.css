@@ -1,4 +1,5 @@
 .projectImage__image {
+  position: relative;
 }
 .projectImage__image-container {
   height: 280px;
@@ -27,6 +28,59 @@
 .projectImage__image h3 {
   margin-left: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.projectImage__left-arrow {
+  background-color: gray;
+  border-radius: 15px;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  opacity: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectImage__left-arrow:hover {
+  background-color: rgb(76, 76, 76);
+}
+
+.projectImage__right-arrow {
+  background-color: gray;
+  border-radius: 15px;
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  opacity: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectImage__right-arrow:hover {
+  background-color: rgb(76, 76, 76);
+}
+
+.projectImage__left-arrow img,
+.projectImage__right-arrow img {
+  height: 60%;
+  width: 60%;
+  object-fit: cover;
+}
+
+.projectImage__image:hover .projectImage__left-arrow {
+  opacity: 1;
+}
+
+.projectImage__image:hover .projectImage__right-arrow {
+  opacity: 1;
 }
 
 @media (max-width: 570px) {
