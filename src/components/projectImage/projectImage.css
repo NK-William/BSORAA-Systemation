@@ -34,7 +34,8 @@
   background-color: gray;
   border-radius: 15px;
   position: absolute;
-  top: 130px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 10px;
   height: 30px;
   width: 30px;
@@ -53,7 +54,8 @@
   background-color: gray;
   border-radius: 15px;
   position: absolute;
-  top: 130px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 10px;
   height: 30px;
   width: 30px;
@@ -81,6 +83,16 @@
 
 .projectImage__image:hover .projectImage__right-arrow {
   opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .projectImage__right-arrow {
+    opacity: 1;
+  }
+
+  .projectImage__left-arrow {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 570px) {

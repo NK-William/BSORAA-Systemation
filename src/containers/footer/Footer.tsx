@@ -99,7 +99,7 @@ const Footer = () => {
             </div>
             <div>
               <img src={location} alt="Location" />
-              <p>112 river, Polokwane, 0700</p>
+              <p>112 River, Polokwane, 0700</p>
             </div>
             <div>
               <img src={clock} alt="Clock" />
