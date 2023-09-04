@@ -96,7 +96,7 @@ const WhatWeDo = () => {
             text="Our Values"
             message=<ul className="whatWeDo__values-list">
               <li>Safety in Execution of Tasks</li>
-              <li>Reliable, Detailed and Long Lasting Solutions roof.</li>
+              <li>Reliable, Detailed and Long Lasting Solutions.</li>
               <li>Ethical, Open and Honest in all we do</li>
             </ul>
           />

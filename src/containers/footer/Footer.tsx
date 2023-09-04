@@ -82,7 +82,7 @@ const Footer = () => {
               onClick={handleQRCodeVisibility}
             />
             <a
-              href="https://instagram.com/systemationbsoraa?igshid=NGExMmI2YTkyZg=="
+              href="https://instagram.com/bsoraa_systemation?igshid=MmIzYWVlNDQ5Yg=="
               target="_blank"
             >
               <img src={instagram} alt="Instagram" />
