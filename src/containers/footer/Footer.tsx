@@ -114,7 +114,7 @@ const Footer = () => {
       </div>
       <div className="footer__second-section">
         <p className="footer__copyright-text">
-          BSORAA Systemation: 13 Taurus Avenue - Sterpark - Polokwane - Limpopo
+          BSORAA Systemation: 112 River street - Polokwane - Limpopo
           - South Africa
         </p>
         <div>
