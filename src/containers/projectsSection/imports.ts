@@ -21,6 +21,12 @@ import container12 from "../../assets/container12.jpeg";
 import container13 from "../../assets/container13.jpeg";
 import container14 from "../../assets/container14.jpeg";
 
+import commercial1 from "../../assets/commercial1.jpg"
+import commercial2 from "../../assets/commercial2.jpg"
+import commercial3 from "../../assets/commercial3.jpg"
+import commercial4 from "../../assets/commercial4.jpg"
+import commercial5 from "../../assets/commercial5.jpg"
+
 export {
   project1,
   project2,
@@ -42,4 +48,9 @@ export {
   container12,
   container13,
   container14,
+  commercial1,
+  commercial2,
+  commercial3,
+  commercial4,
+  commercial5,
 };
