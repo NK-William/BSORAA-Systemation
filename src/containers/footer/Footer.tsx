@@ -53,6 +53,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer__contacts-info">
+            <p className="footer__contact-info__callNow-text">Call now</p>
             <div>
               <img src={phone} alt="Phone" />
               <p>015 250 0100</p>
@@ -113,8 +114,8 @@ const Footer = () => {
       </div>
       <div className="footer__second-section">
         <p className="footer__copyright-text">
-          BSORAA Systemation: 112 River street - Polokwane - Limpopo
-          - South Africa
+          BSORAA Systemation: 112 River street - Polokwane - Limpopo - South
+          Africa
         </p>
         <div>
           <p>

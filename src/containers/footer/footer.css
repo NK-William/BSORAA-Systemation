@@ -111,9 +111,15 @@
   margin-right: 1rem;
 }
 
-.footer__contacts-info div p {
+.footer__contacts-info div p,
+.footer__contact-info__callNow-text {
   color: white;
   font-size: 14px;
+}
+
+.footer__contact-info__callNow-text {
+  margin-left: 2rem;
+  font-weight: bold;
 }
 
 .footer__second-section {
