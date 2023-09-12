@@ -22,6 +22,11 @@ import {
   container12,
   container13,
   container14,
+  commercial1,
+  commercial2,
+  commercial3,
+  commercial4,
+  commercial5,
 } from "./imports";
 
 interface IProjectImage {
@@ -46,9 +51,17 @@ const containers: IProjectImage[] = [
   { imageSrc: container14, imageText: "Containers" },
 ];
 
+const commercials: IProjectImage[] = [
+  {imageSrc: commercial1, imageText: "Commercial"},
+  {imageSrc: commercial2, imageText: "Commercial"},
+  {imageSrc: commercial3, imageText: "Commercial"},
+  {imageSrc: commercial4, imageText: "Commercial"},
+  {imageSrc: commercial5, imageText: "Commercial"},
+]
+
 const instrumentations: IProjectImage[] = [
-  { imageSrc: instrumentation1, imageText: "Instrumentations" },
-  { imageSrc: instrumentation2, imageText: "Instrumentations" },
+  { imageSrc: instrumentation1, imageText: "Instrumentation" },
+  { imageSrc: instrumentation2, imageText: "Instrumentation" },
 ];
 
 const residentials: IProjectImage[] = [
@@ -66,6 +79,7 @@ const ProjectsSection = () => {
         <ProjectImage projectImages={containers} />
         <ProjectImage projectImages={instrumentations} />
         <ProjectImage projectImages={residentials} />
+        <ProjectImage projectImages={commercials}/>
         <ProjectImage projectImages={transports} />
       </div>
     </div>
