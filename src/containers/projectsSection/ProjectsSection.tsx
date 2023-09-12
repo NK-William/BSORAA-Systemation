@@ -9,6 +9,13 @@ import {
   instrumentation1,
   instrumentation2,
   instrumentation3,
+  instrumentation4,
+  instrumentation5,
+  instrumentation6,
+  instrumentation7,
+  instrumentation8,
+
+
   container1,
   container2,
   container3,

@@ -5,6 +5,14 @@ import transport from "../../assets/transport.jpg";
 
 import instrumentation1 from "../../assets/instrumentation1.jpeg";
 import instrumentation2 from "../../assets/instrumentation2.jpeg";
+import instrumentation3 from "../../assets/instrumentation3.jpg";
+import instrumentation4 from "../../assets/instrumentation4.jpg";
+import instrumentation5 from "../../assets/instrumentation5.jpg";
+import instrumentation6 from "../../assets/instrumentation6.jpg";
+import instrumentation7 from "../../assets/instrumentation7.jpg";
+import instrumentation8 from "../../assets/instrumentation8.jpg";
+
+
 
 import container1 from "../../assets/container1.jpeg";
 import container2 from "../../assets/container2.jpeg";
@@ -35,6 +43,11 @@ export {
   instrumentation1,
   instrumentation2,
   instrumentation3,
+  instrumentation4,
+  instrumentation5,
+  instrumentation6,
+  instrumentation7,
+  instrumentation8,
   container1,
   container2,
   container3,
