@@ -71,6 +71,11 @@ const instrumentations: IProjectImage[] = [
   { imageSrc: instrumentation1, imageText: "Instrumentation" },
   { imageSrc: instrumentation2, imageText: "Instrumentation" },
   { imageSrc: instrumentation3, imageText: "Instrumentation" },
+  { imageSrc: instrumentation4, imageText: "Instrumentation" },
+  { imageSrc: instrumentation5, imageText: "Instrumentation" },
+  { imageSrc: instrumentation6, imageText: "Instrumentation" },
+  { imageSrc: instrumentation7, imageText: "Instrumentation" },
+  { imageSrc: instrumentation8, imageText: "Instrumentation" },
 ];
 
 const residentials: IProjectImage[] = [
