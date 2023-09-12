@@ -38,42 +38,6 @@ const Footer = () => {
             and usage of green energy wherever possible.
           </p>
         </div>
-        <div>
-          <div className="footer__quicklinks">
-            <h3>QUICKLINKS</h3>
-            <div />
-            <ul>
-              <li>
-                <Link to="/" onClick={scrollPageUp}>
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/about-us" onClick={scrollPageUp}>
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/projects" onClick={scrollPageUp}>
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link to="/quote" onClick={scrollPageUp}>
-                  Quote
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="footer__affiliations">
-            <h3>AFFILIATIONS</h3>
-            <div className="footer__affiliation-title__line" />
-            <div className="footer__affiliations-img">
-              <img src={affiliation} alt="Affiliation" />
-            </div>
-          </div>
-        </div>
-
         <div className="footer__contacts">
           <div className="footer__social-media">
             <img
@@ -108,6 +72,41 @@ const Footer = () => {
             <div>
               <img src={close} alt="Close" />
               <p>Closed Saturdays, Sundays and public Holidays</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="footer__quicklinks">
+            <h3>QUICKLINKS</h3>
+            <div />
+            <ul>
+              <li>
+                <Link to="/" onClick={scrollPageUp}>
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about-us" onClick={scrollPageUp}>
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/projects" onClick={scrollPageUp}>
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link to="/quote" onClick={scrollPageUp}>
+                  Quote
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="footer__affiliations">
+            <h3>AFFILIATIONS</h3>
+            <div className="footer__affiliation-title__line" />
+            <div className="footer__affiliations-img">
+              <img src={affiliation} alt="Affiliation" />
             </div>
           </div>
         </div>
