@@ -8,6 +8,7 @@ import {
   transport,
   instrumentation1,
   instrumentation2,
+  instrumentation3,
   container1,
   container2,
   container3,
@@ -62,6 +63,7 @@ const commercials: IProjectImage[] = [
 const instrumentations: IProjectImage[] = [
   { imageSrc: instrumentation1, imageText: "Instrumentation" },
   { imageSrc: instrumentation2, imageText: "Instrumentation" },
+  { imageSrc: instrumentation3, imageText: "Instrumentation" },
 ];
 
 const residentials: IProjectImage[] = [

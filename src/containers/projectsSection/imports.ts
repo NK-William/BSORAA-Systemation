@@ -34,6 +34,7 @@ export {
   transport,
   instrumentation1,
   instrumentation2,
+  instrumentation3,
   container1,
   container2,
   container3,
